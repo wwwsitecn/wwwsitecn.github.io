@@ -1,0 +1,71 @@
+/* 公共基础样式 */
+/* display : none */
+.hidden{
+    display: none!important;
+}
+/* overflow:hidden */
+.overflowHidden{
+    overflow: hidden!important;
+}
+.showed{
+    display: inline-block!important;
+}
+/* 清除浮动 */
+.clear {
+    display: block;
+    #zoom:1;
+    /*ie6-ie7*/;
+}
+.clear:after {
+    content: '';
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    clear: both;
+}
+/* 字体颜色 - 红色 */
+.textRed{
+    color: #f00;
+}
+/* 圆角 - 3px */
+.borderRadius3px{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:3px;
+}
+/* 圆角 - 100% */
+.borderRadius100per{
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius:100%;
+}
+/* 背景平铺 : cover */
+.backgroundSizeCover{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* box-sizing : border-box */
+.borderBox{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* disabled : 禁用 */
+.disabled{
+    cursor: default!important;
+}
+
+/* required : 必填 */
+.required{color: #e50011;padding-right: 2px;}
+/* on - tab current */
+.on{cursor: default!important;}
+/* superslide : next/prev btn stop style */
+.nextStop,
+.prevStop{display: none!important;}

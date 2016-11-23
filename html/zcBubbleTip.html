@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>zcBubbleTip</title>
+	<link rel="stylesheet" type="text/css" href="../css/base/zcNormalize.css">
+	<link rel="stylesheet" type="text/css" href="../css/base/zcIcon.css">
+	<link rel="stylesheet" type="text/css" href="../css/base/zcTheme.css">
+	<link rel="stylesheet" type="text/css" href="../css/base/zcBubbleTip.css">
+</head>
+<body>
+	<div class="wrap">
+		<!-- 标题和解释 -->
+		<div class="title">
+			<h1>冒泡提示信息</h1>
+			<p class="support">CSS引用：[ <a href="css/base/zcBubbleTip.css" target="_blank">css/base/zcBubbleTip.css</a> ]</p>
+		</div>
+		<div class="box">
+			<!-- 实例 -->
+			<div class="example">
+				<h2>zcBubbleTip</h2>
+				<p>描述：</p>
+				<p class="describe">
+					icon，文本信息及消失时间，可以自定义，通过相关参数即可以实现。
+				</p>
+				<h3>DEMO</h3>
+				<div class="zcBubbleTip disabled" style="display:inline-block;position:static;margin:0px;">
+		         	<div class="cont">
+		          		<i class='icon icon-tick'>&#xe63b;</i>
+		            	<span class="text">正确提示信息</span>
+			        </div>
+				</div>
+				
+				<div class="zcBubbleTip disabled" style="display:inline-block;position:static;margin:0px;">
+		         	<div class="cont">
+		          		<i class='icon icon-cross'>&#xe620;</i>
+		            	<span class="text">错误提示信息</span>
+			        </div>
+				</div>
+				<br />
+				<a href="javascript:;" class="zcBtn btnWhite btnDemo" id="zcDemo3">点击查看</a>
+			</div>
+			<!-- 源码 -->
+			<div class="sourceCode">
+				<pre id="demo">
+<!-- JS 代码 -->
+ZC_GLOBAL.FUN.zcBubbleTip.show({icon:'<i class="icon icon-tick">&#xe63b;</i>',msg:"正确提示信息",times:1000});
+ZC_GLOBAL.FUN.zcBubbleTip.show({icon:'<i class="icon icon-cross">&#xe620;</i>',msg:"错误提示信息",times:1000});</pre>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+.zcBtn{
+    min-width: 55px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 24px;
+    border-style:solid;
+    border-width:1px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:3px;
+    color: #00a1f1;
+}
+.zcBtn .icon{
+    margin-right: 8px;
+    font-size: 14px;
+    line-height: 14px;
+}
+.zcBtn:hover{
+    background: #00a1f1;
+    color: #fff;
+    text-decoration:none;
+}
+.zcBtn:hover .text,
+.zcBtn:hover .icon{
+    color: #fff;
+}
+/* 蓝色 : #00a1f1 */
+.btnBlue{
+    background: #00a1f1;
+    border-color:#00a1f1;
+    color: #fff;
+}
+.btnBlue .text{
+    color: #fff;
+}
+.btnBlue:hover{
+    background: #18b4ff;
+    border-color:#18b4ff;
+    color: #fff;
+}
+.btnBlue:hover .text{
+    color: #fff;
+}
+/* 白色 : #fff */
+.btnWhite{
+    background: #fff;
+    border-color:#e3e3e3;
+    color:#333;
+}
+.btnWhite .text{
+    color:#333;
+}
+.btnWhite:hover{
+    color:#00a1f1;
+    background:#f7f7f7;
+}
+.btnWhite:hover .text,
+.btnWhite:hover .icon{
+    color:#00a1f1;
+}
+/* 黄色 : #ffcd0a */
+.btnYellow{
+    background: #ffcd0a;
+    border-color:#ffcd0a;
+    color:#fff;
+}
+.btnYellow .text{
+    color:#fff;
+}
+.btnYellow:hover{
+    color:#fff;
+    background:#ffcd0a;
+}
+.btnYellow:hover .text{
+    color:#fff;
+}
+/* 橙色 : #f4901e */
+.btnOrange{
+    background: #f4901e;
+    border-color:#f4901e;
+    color:#fff;
+}
+.btnOrange .text{
+    color:#fff;
+}
+.btnOrange:hover{
+    color:#fff;
+    background:#f4901e;
+}
+.btnOrange:hover .text{
+    color:#fff;
+}
+/* 橙色 : #ee5a28 */
+.btnee5a28{
+    background: #ee5a28;
+    border-color:#ee5a28;
+    color:#fff;
+}
+.btnee5a28 .text{
+    color:#fff;
+}
+.btnee5a28:hover{
+    color:#fff;
+    background:#ee5a28;
+}
+.btnee5a28:hover .text{
+    color:#fff;
+}
+/* 绿色 : #89c33e */
+.btnGreen{
+    background: #89c33e;
+    border-color:#89c33e;
+    color:#fff;
+}
+.btnGreen .text{
+    color:#fff;
+}
+.btnGreen:hover{
+    color:#fff;
+    background:#89c33e;
+}
+.btnGreen:hover .text{
+    color:#fff;
+}
+/* 浅绿色 : #25bcc6 */
+.btnLightGreen{
+    background: #25bcc6;
+    border-color:#25bcc6;
+    color:#fff;
+}
+.btnLightGreen .text{
+    color:#fff;
+}
+.btnLightGreen:hover{
+    color:#fff;
+    background:#25bcc6;
+}
+.btnLightGreen:hover .text{
+    color:#fff;
+}
+/* disabled : 禁用 */
+.zcBtn.disabled,
+.zcBtn.disabled .text,
+.zcBtn.disabled .icon{
+    background: #ccc!important;
+    border-color: #ccc!important;
+    color:#fff!important;
+    cursor: not-allowed!important;
+}
+.zcBtn.disabled:hover,
+.zcBtn.disabled:hover .text,
+.zcBtn.disabled:hover .icon{
+    color: #fff!important;
+}
+/* zcLoading : 等待状态 */
+.zcBtn .ing{
+    display: none;
+}
+.zcBtn.zcLoading{
+    cursor: not-allowed!important;
+    background: #18b4ff!important;
+    border-color: #18b4ff!important;
+}
+.zcBtn.zcLoading .icon,
+.zcBtn.zcLoading .text{
+    display: none!important;
+}
+.zcBtn.zcLoading .ing{
+    display: inline-block;
+    margin-top: -2px;
+}
+.zcBtn.zcLoading:hover{
+    background: #18b4ff!important;
+    border-color: #18b4ff!important;
+}
+
+/* 大按钮 */
+.zcBtn.btnBg{
+    min-width: 65px;
+    height: 42px;
+    line-height: 42px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0 63px;
+}
+.zcBtn.btnBg,
+.zcBtn.btnBg .text{
+    font-size: 16px;
+}
+.zcBtn.btnBg .icon{
+    line-height: 16px;
+    font-size: 16px;
+}
+

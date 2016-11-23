@@ -1,0 +1,31 @@
+{
+	"list": [
+      {
+        "url": "html/zcColor.html"
+      },
+      {
+        "url": "html/zcLink.html"
+      },
+      {
+        "url": "html/zcBtn.html"
+      },
+      {
+        "url": "html/zcForm.html"
+      },
+      {
+      	"url": "html/zcDialog.html"
+      },
+      {
+        "url": "html/zcBubbleTip.html"
+      },
+      {
+        "url": "html/zcImgUpload.html"
+      },
+      {
+        "url": "html/zcTableList.html"
+      },
+      {
+        "url": "html/zcPager.html"
+      }
+    ]
+}
